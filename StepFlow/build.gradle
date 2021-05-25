@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        // 添加阿里云 maven 地址
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        maven { url 'https://github.com/kshoji/BLE-MIDI-for-Android/raw/master/library/repository' }
+        maven { url 'https://github.com/kshoji/JFugue-for-Android/raw/master/jfugue-android/snapshot' }
+        maven { url 'https://github.com/kshoji/USB-MIDI-Driver/raw/master/MIDIDriver/snapshots' }
+//        mavenCentral()
+
+        google()
+//        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.1.1"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        // 添加阿里云 maven 地址
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        maven { url 'https://github.com/kshoji/BLE-MIDI-for-Android/raw/master/library/repository' }
+//        maven { url 'https://github.com/kshoji/USB-MIDI-Driver/raw/master/MIDIDriver/snapshots' }
+        maven { url 'https://github.com/kshoji/JFugue-for-Android/raw/master/jfugue-android/snapshot' }
+        maven { url 'https://github.com/kshoji/USB-MIDI-Driver/raw/master/MIDIDriver/snapshots' }
+//        mavenCentral()
+
+        google()
+//        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

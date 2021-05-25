@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="music_select">
+        <item>Doudizhu.mid</item>
+        <item>AUD.mid</item>
+        <item>王妃.mid</item>
+        <item>活着.mid</item>
+    </string-array>
+    <string-array name="point_sound_select">
+        <item>metronome</item>
+        <item>drum</item>
+    </string-array>
+</resources>
