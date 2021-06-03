@@ -6,5 +6,6 @@ Application design of sports music app based on rhythm following
 stepflow文件夹为android项目代码。  
 logistic文件夹为逻辑回归预测落地点的代码，可直接运行Integration里面的main方法。  
 data文件夹为用于逻辑回归训练的跑步传感器数据。  
+introduction文件夹为APP介绍文档。  
 
 
