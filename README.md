@@ -1,6 +1,6 @@
 # RhythmFollowing
-基于节奏跟随的运动音乐APP应用设计  
-Application design of sports music app based on rhythm following
+基于节奏跟随的运动音乐手机APP应用设计  
+Application design of sports music mobile app based on rhythm following  
 
 本项目基于手机传感器和逻辑回归算法实现了跑步过程中音乐节奏的自动跟随，产生了一步一拍的踩点效果。  
 stepflow文件夹为android项目代码。  
