@@ -360,7 +360,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         mp = MediaPlayer.create(this, R.raw.step);
 
         try {
-            player = new NativeMidiPlayController(getAssets().open("doudizhu.mid"), new InputStream[]{getAssets().open("SmallTimGM6mb.sf2")}, this);
+            player = new NativeMidiPlayController(getAssets().open("doudizhu.mid"), new InputStream[]{getAssets().open("SmallTimGM6mb.sf2"), getAssets().open("Reality_GMGS_falcomod.sf2")}, this);
         } catch (IOException e) {
             e.printStackTrace();
         }
